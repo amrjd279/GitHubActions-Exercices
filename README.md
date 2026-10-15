@@ -1,2 +1,2 @@
 # GitHubActions-Exercices
-## J'aime Docker (compose), Kubernetes
+## J'aime Docker (compose) et Kubernetes
