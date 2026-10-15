@@ -1,0 +1,12 @@
+name: Exercice 3
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+
+jobs:
+  job_ex1:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Je m'exécute tous les 5 minutes"
