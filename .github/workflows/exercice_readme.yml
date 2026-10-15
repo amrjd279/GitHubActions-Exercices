@@ -1,0 +1,15 @@
+name: Syntaxe des workflows - Exercice Readme
+
+on:
+  workflow_dispatch:
+
+jobs:
+  job_ex1:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Afficher le README.md
+        run: cat README.md
